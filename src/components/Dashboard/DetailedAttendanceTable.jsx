@@ -106,7 +106,7 @@ const DetailedAttendanceTable = ({ employeeId, apiClient, showToast }) => {
               </td>
               <td className="px-6 py-4 whitespace-nowrap">
                 <span
-                  className={`p-2 w-2/5  inline-flex justify-center text-xs leading-5 font-semibold rounded-full text-white ${getStatusClass(
+                  className={`px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full text-white   ${getStatusClass(
                     record.status
                   )}`}
                 >
