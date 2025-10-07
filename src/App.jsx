@@ -4,7 +4,7 @@ import useAppState from "./hooks/useAppState.js"; // Added .js extension
 // import Header from "./components/layout/Header.jsx";
 import Toast from "./components/Layout/Toast.jsx"; // Added .jsx extension
 import Spinner from "./components/Layout/Spinner.jsx"; // Added .jsx extension
-import LoginScreen from "./components/auth/LoginScreen.jsx"; // Added .jsx extension
+import LoginScreen from "./components/Auth/LoginScreen.jsx"; // Added .jsx extension
 import Dashboard from "./Dashboard.jsx"; // <-- CRITICAL: Changed to Dashboard.jsx
 import Header from "./components/Layout/Header.jsx"
 
