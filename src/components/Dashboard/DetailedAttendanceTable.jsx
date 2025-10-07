@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import Spinner from "../layout/Spinner";
+import Spinner from "../Layout/Spinner";
 
 const DetailedAttendanceTable = ({ employeeId, apiClient, showToast }) => {
   const [data, setData] = useState([]);

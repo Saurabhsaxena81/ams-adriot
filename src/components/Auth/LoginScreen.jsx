@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { LogIn } from "lucide-react";
-import Spinner from "../layout/Spinner";
+import Spinner from "../Layout/Spinner";
 
 const LoginScreen = ({ handleLogin, isLoading }) => {
   const [employeeId, setEmployeeId] = useState(""); // Default for testing

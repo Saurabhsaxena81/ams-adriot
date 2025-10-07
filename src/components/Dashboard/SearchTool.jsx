@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Search } from "lucide-react";
-import Spinner from "../layout/Spinner";
+import Spinner from "../Layout/Spinner";
 
 const SearchTool = ({ apiClient, showToast }) => {
   const [employeeId, setEmployeeId] = useState("");
