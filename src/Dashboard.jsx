@@ -1,7 +1,7 @@
 import React from "react";
-import AgentDashboard from "./components/dashboard/AgentDashboard";
-import SearchTool from "./components/dashboard/SearchTool";
-import AdminHROtherTools from "./components/dashboard/AdminHROtherTools";
+import AgentDashboard from "./components/Dashboard/AgentDashboard";
+import SearchTool from "./components/Dashboard/SearchTool";
+import AdminHROtherTools from "./components/Dashboard/AdminHROtherTools";
 
 const Dashboard = ({
   user,
